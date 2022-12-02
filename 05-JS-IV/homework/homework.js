@@ -1,4 +1,4 @@
-// No cambies los nombres de las funciones.
+    // No cambies los nombres de las funciones.
 
 function crearGato (nombre, edad) {
   // Crear un nuevo objeto con la propiedad "nombre" y el valor definido como el argumento "nombre".
@@ -57,16 +57,16 @@ function nuevoUsuario (nombre, email, password) {
   // Devuelve el objeto
   // Tu código:
   var nuevoObjeto={
-    nombre,
-    email,
-    password,
+    nombre: nombre,
+    email:email,
+    password: password,
   }
   return nuevoObjeto;
 }
 
 function tieneEmail (usuario) {
   // Devuelve "true" si el usuario tiene un valor definido para la propiedad "email"
-  // De lo contratio, devuelve "false"
+  // De lo contratio, devuelve "false"  
   // Tu código:
  if(usuario.email){
   return true; 
@@ -110,7 +110,7 @@ function agregarAmigo (usuario, nuevoAmigo) {
   // Agrega "nuevoAmigo" al final de ese array
   // Devuelve el objeto "usuario"
   // Tu código:
-  usuario.amigos.push(nuevoAmigo);
+    
   return usuario;
 }
 

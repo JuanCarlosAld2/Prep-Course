@@ -73,7 +73,8 @@ function dePalabrasAFrase(palabras) {
 function arrayContiene(array, elemento) {
   // Comprueba si el elemento existe dentro de "array"
   // Devuelve "true" si está, o "false" si no está
-  // Tu código://return array.includes(elemento);
+  // Tu código:
+  //return array.includes(elemento);
  for(var i=0;i<array.length;i++){
     if(array[i]===elemento){
     return true;
@@ -116,7 +117,7 @@ function numeroMasGrande(numeros) {
   // Tu código:
   var bigger = 0
   for (var i= 0; i <numeros.length; i++) {
-    if (numeros[i] > bigger){
+    if (numeros[i] > bigger){ 
      bigger= numeros[i];
 
     }
@@ -252,9 +253,9 @@ function breakStatement(numero) {
   for(i=0; i<10; i++){
     numero= 2 + numero;
     array.push(numero);
-      var iteraccion= array.length
+      var iteracion= array.length
       
-      if( iteraccion === numero){
+      if( iteracion === numero){
         return "Se interrumpió la ejecución";
         break
       }

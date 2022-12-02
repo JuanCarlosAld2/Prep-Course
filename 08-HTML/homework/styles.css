@@ -1,0 +1,29 @@
+ body{
+   background-image:linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(https://s3.eu-west-1.amazonaws.com/cdn.spydeals.nl/images/uploads/NMkmntfiG8I2G4hLFPGLqzK1uVPFJNUQ6aUyOLGJ.png);
+
+ }
+
+h1{
+   color:darkred ;
+}
+img{
+   width: 400px;
+
+}
+   
+#thirdDiv{
+   height: 500 px;
+   width: 600px;
+   background-color:orangered;
+   padding:50px;
+   border:brown 10px outset;
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+
+}
+#spanId{
+   color: black;
+   font-size:18px;
+   margin: 50px;
+}
