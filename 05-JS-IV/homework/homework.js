@@ -111,7 +111,8 @@ function agregarAmigo (usuario, nuevoAmigo) {
   // Devuelve el objeto "usuario"
   // Tu código:
     
-  return usuario;
+  usuario.amigos.push(nuevoAmigo);
+  return usuario
 }
 
 function pasarUsuarioAPremium (usuarios) {
